@@ -12,7 +12,7 @@ body {
 }
 
 header {
-	/* position: fixed; */
+	position: fixed;
 	width: 100%;
 	background: #ffffff;
 	margin: 0 0 30px;
@@ -21,7 +21,8 @@ header {
 	overflow: auto;
 	border-bottom: 2px solid #cccccc;
 }
-.div {
+
+div {
 	width: 100%;
 	max-width: 960px;
 	margin: 0 auto;

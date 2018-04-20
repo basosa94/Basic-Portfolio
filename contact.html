@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    <header>
-        <div>
-            <h1 id="name">Byron Sosa</h1>
+    <header id="header">
+        <div class="container">
+            <a href="index.html" id="nametag">Byron Sosa</a>
                 <nav>
                     <a href="index.html">About</a>
                     <a href="portfolio.html">Portfolio</a>
@@ -20,27 +20,28 @@
         </div>
     </header>
 
-    <div>
-        <section>
+    <div id="article" class="container">
+        <section class="bulk">
 
-            <p>Contact</p>
+            <h1>Contact</h1>
             <hr>
                 
+            
+            <label>Name</label>
             <form>
-                Name:<br>
-                <input type="text" name="John Smith" placeholder="John Smith">
+                <input type="text" name="name" placeholder="John Smith">
             </form>
             <br>
 
+            <label>Email</label>
             <form>
-                Email:<br>
-                <input type="text" name=:"example@gmail.com" placeholder="example@gmail.com">
+                <input type="text" name="email" placeholder="example@gmail.com">
             </form>
             <br>
 
+            <label>Message</label>
             <form>
-                Message:<br>
-                <input type="text" name=:"Message">
+                <textarea type="text" name="Message"></textarea>
             </form>
             <br>
 
@@ -53,11 +54,10 @@
     </div>
 
     <footer>
-            <div>
+            <div class="container">
                 Copyright &copy;
             </div>
     </footer>
 
 </body>
-
 </html>
